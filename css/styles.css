@@ -1,0 +1,36 @@
+/* 
+TODO: 
+[] - Get google fonts for Satisfy and Open Sans
+*KEY*
+* Primary Heading Color: #C9C983
+* Primary Heading Font: 'Satisfy', open-sans
+* MAIN COLOR: #EEDDCD
+*-------*
+*/
+/* IMPORTS */
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+​
+/* NAVBAR SECTION */
+.logo {
+    width: 91px;
+}
+​
+header h1 {
+    color: #C9C983;
+    font-family: 'Satisfy', open-sans;
+    margin-top: 20px;
+}
+​
+.nav-pills > li.active > a {
+    color: #5C433F;
+    background-color: #EEDDCD;
+}
+.nav-pills > li.active > a:hover,
+.product button:hover,
+footer a:hover {
+    background-color: #EDF1F4;
+    color: #5C433F;
+}
+nav li {
+    font-size: 15px;
+}
