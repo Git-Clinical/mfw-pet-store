@@ -26,12 +26,11 @@ header h1 {
 }
 .nav-pills > li.active > a:hover,
 .product button:hover,
-footer 
-
-a:hover {
+footer a:hover {
     background-color: #EDF1F4;
     color: #5C433F;
 }
+
 nav li {
     font-size: 15px;
 }
@@ -94,8 +93,8 @@ footer img {
     color: #333;
 }
     @media(max-width: 768px) {
-        - centered
-        - nav
-        - social
-        - aside
+        /* - centered */
+        /* - nav */
+        /* - social */
+        /* - aside */
 }
